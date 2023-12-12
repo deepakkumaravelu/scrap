@@ -1,0 +1,25 @@
+.navbar {
+  height: 35px;
+  align-items: center;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  .container {
+    display: flex;
+    justify-content: space-between;
+    width: 1400px;
+    .logo {
+      font-size: 30px;
+    }
+    .links {
+      font-size: 20px;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      .profile{
+        cursor: pointer;
+      }
+    }
+  }
+}
